@@ -1,0 +1,46 @@
+﻿INTRO
+Hello, my name is Favour Mark and my group members are Ugonna Nwaka, Rachel Munoz, and Maddie Bonton. We are working on developing a fitness app and have created paper prototypes for two specific features we plan to implement. Today, you’ll be participating in a usability study to help us test these features.
+You’ll be playing the role of a user who uses this fitness app regularly to track their activity and food intake. As you interact with the prototype, please speak aloud and share your thoughts, intentions, and any confusion you experience before taking any action. Your feedback is essential in helping us improve the design.
+TASKS
+We will test two features:
+
+1. Workout Filter Feature
+Scenario: You've been working out consistently and want to view your past workouts within a specific timeframe. You would like to check all your logged workouts between two chosen dates.
+2. Calorie Tracker Feature
+Scenario: You’re trying to maintain a balanced diet. After logging your meals for the day, you want to see how many calories you've consumed based on the main food classes and view a summary graph of your weekly intake.
+
+
+NOTES
+
+
+PARTICIPANT 1:Understood both tasks immediately and navigated the prototype screens with ease. Completed the workout filter task by entering start and end dates without hesitation. For the calorie tracker, she understood that the table displayed meals and the graph showed the weekly breakdown. Spoke clearly about her intentions and next steps before each action.
+
+
+PARTICIPANT 2: Completed the workout filter task without issues and followed the flow correctly. Expressed confusion upon seeing the calorie tracking table. Verbally asked what the table was showing and initially didn’t connect it to the meals they had logged.Once clarified, completed the task and viewed the graph.
+
+
+FEEDBACK
+
+
+PARTICIPANT 1
+* Ease of Completion: "It was easy to complete the task. I knew what to do on each page."
+
+* Confusion: "No, everything was straightforward."
+
+* Suggestions: "Honestly, it was very clear. I don’t think anything needs to be changed."
+
+
+PARTICIPANT 2
+   * Ease of Completion: "Yes, the tasks were easy overall."
+
+   * Confusion: "I wasn’t sure what the table was showing at first. I didn’t realize it was the meals I logged today."
+
+   * Suggestions: "Nothing else really—it was good once I understood the table."
+
+
+
+RESULTS
+      1. Change the Title from “Today’s Intake” to “Today’s Meals”
+This makes it clearer that the table is showing meals the user has logged, not just an abstract breakdown. This makes it clearer that the table is showing meals the user has logged, not just an abstract breakdown.
+      2. Add a “See Weekly Summary” Button
+A visible button that allows users to view their calorie/macronutrient summary for the day. This provides a clear transition from viewing individual meals to seeing an overall breakdown, improving user understanding.

@@ -1,0 +1,89 @@
+﻿Feature 1: Calorie Tracking
+Enable users to input and track daily calorie/macronutrient intake, view summaries, and receive AI-generated feedback based on their goals.
+Tasks
+1. Edit database (add calorie_tracking table)
+   * Description: Add a new table calorie_tracking with fields for user_id, meal, calories, protein, carbs, fats, and date.
+   * Acceptance Criteria:
+      * Table added and schema updated
+      * Can insert and query meals linked to user_id
+   * Priority: P1
+   * Story Points: 3
+2. Get data from user via input form (modules)
+   * Description: Implement UI form for users to log meals and macronutrients.
+   * Acceptance Criteria:
+      * Form fields for meal, calories, protein, carbs, fats, and date
+      * Data saved to calorie_tracking table
+   * Priority: P1
+   * Story Points: 5
+3. Display intake data (modules)
+   * Description: Show daily and weekly calorie/macro intake summary.
+   * Acceptance Criteria:
+      * Table and/or chart showing nutrient totals per day
+      * Summary view matches stored data
+   * Priority: P2
+   * Story Points: 3
+4. AI feedback based on user data
+   * Description: Use Gen AI to analyze trends and offer suggestions based on goals.
+   * Acceptance Criteria:
+      * AI model returns relevant suggestions when data exists
+      * Display suggestions in a friendly tone
+   * Priority: P3
+   * Story Points: 5
+5. Write unit tests (test_data_fetcher & test_modules)
+   * Description: Add tests to validate input and retrieval of calorie data.
+   * Acceptance Criteria:
+      * 90% test coverage on calorie modules
+      * No failing tests on input validation
+   * Priority: P2
+   * Story Points: 2
+
+
+Feature 2: Workout History Filtering & Visualization
+Allow users to view and filter workout history by date range and visualize progress.
+Tasks
+1. Add calendar filter (Streamlit widget)
+   * Description: Add st.date_input() calendar widget for selecting date range.
+   * Acceptance Criteria:
+      * Users can select start and end date
+      * Widget updates dynamically
+   * Priority: P1
+   * Story Points: 2
+2. Write filter query for workouts (data_fetcher)
+   * Description: Implement backend logic to fetch workouts between given dates.
+   * Acceptance Criteria:
+      * Accepts userId and date range
+      * Returns filtered results accurately
+   * Priority: P1
+   * Story Points: 3
+3. Display workouts between dates (modules)
+   * Description: Show filtered workout list on dashboard.
+   * Acceptance Criteria:
+      * View shows workouts only within selected dates
+      * Includes workout type, date, duration
+   * Priority: P2
+   * Story Points: 3
+4. Graph data summary (modules)
+   * Description: Add graph button to visualize filtered workout data.
+   * Acceptance Criteria:
+      * Displays bar/line chart of workout frequency or duration
+      * Graph matches filtered results
+   * Priority: P2
+   * Story Points: 5
+5. Write tests (modules_test, data_fetcher_tests)
+   * Description: Create tests for filtered display and query logic.
+   * Acceptance Criteria:
+      * Test filtered workout history returns correct data
+      * Edge cases (e.g., no workouts) are covered
+   * Priority: P2
+   * Story Points: 2
+
+
+Week 1 Plan
+
+
+| Team Member | Tasks Assigned | Story Points | Priorities |
+
+|   Ugonna  | Edit database, AI feedback                   | 3 + 5 = 8 SP         | P1, P3 |
+|   Maddie  | Form input (meals), calendar filter | 5 + 2 = 7 SP         | P1, P1 |
+|   Favour   | Filter query, intake display                  | 3 + 3 = 6 SP         | P1, P2 |
+|   Rachel    | Graph visualization, both test tasks | 5 + 2 + 2 = 9 SP | P2, P2, P2 |
